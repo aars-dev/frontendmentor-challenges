@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100 h-screen w-screen m-0 p-0 box-border font-plus-jakarta-sans;
+}
+
+h2 {
+  @apply text-2xl font-bold;
+}
+
+h3 {
+  @apply text-base text-slate-500 font-medium mb-3;
+}
+
+.para {
+  @apply text-base text-slate-500 text-center;
+}
+
+.root {
+  @apply mx-24 max-md:mx-12 max-sm:mx-0 py-10 max-md:py-5 max-sm:py-0 max-w-[108rem] rounded-3xl flex justify-center items-center;
+}
+.container {
+  @apply bg-white rounded-3xl flex flex-row max-lg:flex max-lg:flex-col max-sm:rounded-none;
+}
+
+.navbar {
+  @apply flex justify-between max-md:flex-col mb-8;
+}
+
+.clear-btn {
+  @apply text-base font-medium  text-slate-500 underline underline-offset-4 hover:text-slate-900 max-md:text-start transition duration-200 ease-in-out;
+}
+
+.input-section {
+  @apply border-[0.1rem] rounded-[0.3rem] border-slate-500 hover:border-slate-900 relative  flex flex-row  items-center transition duration-200 ease-in-out;
+}
+.number-input-label {
+  @apply flex justify-center items-center text-lg leading-7 font-bold cursor-pointer px-4 py-2 bg-slate-100 text-slate-700;
+}
+
+.number-input {
+  @apply w-full px-5 rounded-tr-[0.4rem] rounded-br-[0.4rem] [&::-webkit-inner-spin-button]:appearance-none font-semibold text-slate-900 focus:outline-none;
+}
+
+.term-interest {
+  @apply flex justify-between flex-nowrap max-md:flex-col mt-6 gap-6 grow;
+}
+
+.term-input {
+  @apply input-section transition duration-200 ease-in-out;
+}
+
+.interest-input {
+  @apply input-section transition duration-200 ease-in-out;
+}
+
+.mortgage-type {
+  @apply mt-6 mb-8 justify-start;
+}
+
+.repayment {
+  @apply px-7 py-3 has-[:checked]:border-lime has-[:checked]:bg-[#f9f9dc] hover:border-lime mb-2.5 gap-5 transition duration-200 ease-in-out;
+}
+
+.interest-only {
+  @apply px-7 py-3 has-[:checked]:border-lime has-[:checked]:bg-[#f9f9dc] hover:border-lime gap-5 transition duration-200 ease-in-out;
+}
+input[type="radio"] {
+  @apply appearance-none  w-2.5 h-2.5 bg-white rounded-full ring-2 ring-slate-700 ring-offset-4 outline-none  focus:ring-lime focus:bg-lime checked:ring-lime checked:bg-lime;
+}
+
+/* custom */
+.radio {
+  @apply flex justify-center items-center text-base tracking-widest font-bold cursor-pointer text-slate-900;
+}
+
+.submit-button {
+  @apply w-80 h-14 rounded-l-full rounded-r-full flex items-center justify-center bg-lime hover:bg-lime/50 text-lg font-bold text-slate-900 gap-4 transition duration-300 ease-in-out;
+}
+
+.result-conatiner {
+  @apply basis-1/2 bg-slate-900 rounded-tr-3xl rounded-br-3xl rounded-bl-[4.5rem] p-8 max-lg:rounded-tr-none max-lg:rounded-bl-3xl max-sm:rounded-none;
+}
+
+.error {
+  @apply font-medium text-red mt-2;
+}
+
+.error-input-border {
+  @apply border-red;
+}
+
+.error-label {
+  @apply bg-red text-white;
+}
