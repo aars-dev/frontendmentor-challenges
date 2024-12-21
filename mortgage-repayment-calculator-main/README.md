@@ -48,5 +48,5 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 
 ## Author
 
-- GitHub - [](https://github.com/aars-dev)
-- Frontend Mentor - [](https://www.frontendmentor.io/profile/aars-dev)
+- GitHub - (https://github.com/aars-dev)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/aars-dev)
