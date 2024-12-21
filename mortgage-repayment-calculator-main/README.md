@@ -32,8 +32,8 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 
 ### Links
 
-- Solution URL:[Frontend Mentor](https://github.com/aars-dev/frontendmentor-challenges/tree/master/mortgage-repayment-calculator-main)
-- Live Site URL:[Live URL](https://aars-dev.github.io/frontendmentor-challenges/mortgage-repayment-calculator-main/src/index.html)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/mortgage-repayment-calculator-XoLq-sbzSo)
+- Live Site URL: [Live URL](https://aars-dev.github.io/frontendmentor-challenges/mortgage-repayment-calculator-main/src/index.html)
 
 ## My process
 
