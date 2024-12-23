@@ -1,57 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Conf 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-gradient-to-br from-indigo-900 via-purple-900 to-indigo-900 min-h-screen flex items-center justify-center"
+  >
+    <!-- Form Container -->
+    <div
+      class="max-w-md w-full bg-gradient-to-b from-gray-800 to-gray-900 rounded-xl shadow-lg p-6"
+    >
+      <!-- Title -->
+      <div class="text-center">
+        <h1 class="text-2xl md:text-3xl font-bold text-white">
+          Your Journey to <br />
+          Coding Conf 2025 Starts Here!
+        </h1>
+        <p class="text-sm text-gray-400 mt-2">
+          Secure your spot at next year's biggest coding conference.
+        </p>
+      </div>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Conference ticket generator</title>
+      <!-- File Upload Section -->
+      <div class="mt-6">
+        <label class="block text-sm font-medium text-gray-400 mb-2" for="avatar"
+          >Upload Avatar</label
+        >
+        <div
+          class="flex items-center justify-center border-2 border-dashed border-gray-600 rounded-lg p-4 bg-gray-700 hover:bg-gray-600 transition duration-300 cursor-pointer"
+        >
+          <input id="avatar" type="file" class="hidden" />
+          <div class="text-center">
+            <svg
+              class="mx-auto h-8 w-8 text-gray-300"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 4v16m8-8H4"
+              ></path>
+            </svg>
+            <p class="text-sm text-gray-300">
+              Drag and drop or click to upload
+            </p>
+            <p class="text-xs text-gray-400 mt-1">
+              Upload your photo (JPG or PNG, max size: 500KB).
+            </p>
+          </div>
+        </div>
+      </div>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  <!-- Form starts -->
-
-  Your Journey to Coding Conf 2025 Starts Here!
-
-  Secure your spot at next year's biggest coding conference.
-
-  Upload Avatar
-  Drag and drop or click to upload
-  Upload your photo (JPG or PNG, max size: 500KB).
-
-  Full Name
-
-  Email Address
-  example@email.com
-
-  GitHub Username
-  @yourusername
-
-  Generate My Ticket
-
-  <!-- Form ends -->
-
-  <!-- Generated tickets starts -->
-
-  Congrats, <!-- Full Name -->! Your ticket is ready.
-
-  We've emailed your ticket to <!-- Email Address --> and will send updates in the run up to the event.
-
-  Coding Conf
-  Jan 31, 2025 / Austin, TX
-
-  <!-- Generated tickets ends -->
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      <!-- Form Fields -->
+      <form action="#" method="POST" class="space-y-4 mt-6">
+        <div>
+          <label for="full-name" class="block text-sm font-medium text-gray-400"
+            >Full Name</label
+          >
+          <input
+            id="full-name"
+            type="text"
+            placeholder="Enter your full name"
+            class="w-full bg-gray-800 text-white border border-gray-600 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          />
+        </div>
+        <div>
+          <label for="email" class="block text-sm font-medium text-gray-400"
+            >Email Address</label
+          >
+          <input
+            id="email"
+            type="email"
+            placeholder="example@email.com"
+            class="w-full bg-gray-800 text-white border border-gray-600 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          />
+        </div>
+        <div>
+          <label for="github" class="block text-sm font-medium text-gray-400"
+            >GitHub Username</label
+          >
+          <input
+            id="github"
+            type="text"
+            placeholder="@yourusername"
+            class="w-full bg-gray-800 text-white border border-gray-600 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          />
+        </div>
+        <button
+          type="submit"
+          class="w-full bg-gradient-to-r from-orange-500 to-red-500 text-white font-semibold text-lg py-3 rounded-lg hover:from-orange-600 hover:to-red-600 shadow-md transition duration-300"
+        >
+          Generate My Ticket
+        </button>
+      </form>
+    </div>
+  </body>
 </html>
