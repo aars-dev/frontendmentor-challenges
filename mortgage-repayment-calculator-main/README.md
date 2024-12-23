@@ -33,7 +33,7 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/mortgage-repayment-calculator-XoLq-sbzSo)
-- Live Site URL: [Live URL](https://aars-dev.github.io/frontendmentor-challenges/mortgage-repayment-calculator-main/src/index.html)
+- Live Site URL: [Live URL](https://frontend-mortgage-calculator.netlify.app/)
 
 ## My process
 
